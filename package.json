@@ -1,0 +1,33 @@
+{
+  "name": "catopia-mining-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Catopia Mining Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "mkdir -p app/config && cp -r config/config.js app/config/config.js && node app/index.js",
+    "dev": "node index.js",
+    "test": "node test.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json && mkdir -p app/config"
+  },
+  "keywords": [
+    "catopia",
+    "catopia-bot",
+    "catopia mining bot"
+  ],
+  "author": "Widiskel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widiskel/catopia-mining-bot.git"
+  },
+  "dependencies": {
+    "input": "^1.0.1",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "socket.io-client": "^4.7.5",
+    "telegram": "^2.22.2",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0"
+  }
+}
