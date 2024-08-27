@@ -40,9 +40,9 @@ New Airdrops : Catopia
 2. run `npm install`
 3. run `npm i telegram@2.22.2`
 4. run `cp config/config_tmp.js config/config.js`
-   To configure the app, open `src/config.js` and add your telegram app id and hash there
+   To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there
 5. run `mkdir sessions`
-6. to start the app run `npm run start` or you can copy everything inside config folder to `app/config` and run `node app/index.js`
+6. to start the app run `npm run start` or you can copy everything inside `config` folder (make sure it already configured) to `app/config` and run `node app/index.js`
 
 ## Setup Session
 
