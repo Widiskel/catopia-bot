@@ -23,6 +23,9 @@ New Airdrops : Catopia
 - Auto Plant Seed
 - Auto Buy Seed
 - Auto Harvest
+- Auto Claim Mission
+- Auto Buy Chest (Common Chest with Companion A)
+- Auto Upgrade Pet (Companion A)
 
 ## Prerequisite
 
