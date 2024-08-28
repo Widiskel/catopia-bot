@@ -8,6 +8,7 @@
   - [BOT FEATURE](#bot-feature)
   - [Prerequisite](#prerequisite)
   - [Setup \& Configure BOT](#setup--configure-bot)
+  - [Update Bot](#update-bot)
   - [Setup Session](#setup-session)
   - [Note](#note)
   - [CONTRIBUTE](#contribute)
@@ -46,6 +47,13 @@ New Airdrops : Catopia
    To configure the Proxy, run `nano src/config/config.js` and add your proxy list there, it currently only support https proxy.
 5. run `mkdir sessions`
 6. to start the app run `npm run start` or you can copy everything inside `config` folder (make sure it already configured) to `app/config` and run `node app/index.js`
+
+## Update Bot
+
+To update bot follow this step :
+1. run `git pull` or `git pull rebase` , if error run `git stash && git pull`
+2. run `npm update`
+3. start the bot
 
 ## Setup Session
 
