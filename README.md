@@ -26,6 +26,7 @@ New Airdrops : Catopia
 - Auto Claim Mission
 - Auto Buy Chest (Common Chest with Companion A)
 - Auto Upgrade Pet (Companion A)
+- Auto Claim Gold
 
 ## Prerequisite
 
