@@ -22,6 +22,7 @@
     "url": "git+https://github.com/Widiskel/catopia-bot.git"
   },
   "dependencies": {
+    "https-proxy-agent": "^7.0.5",
     "input": "^1.0.1",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.45",
