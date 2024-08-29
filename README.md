@@ -25,8 +25,8 @@ New Airdrops : Catopia
 - Auto Buy Seed
 - Auto Harvest
 - Auto Claim Mission
-- Auto Buy Chest (Common Chest with Companion A)
-- Auto Upgrade Pet (Companion A)
+- Auto Buy Chest (Common Chest with Adjustable Companion, Default A)
+- Auto Upgrade Pet 
 - Auto Claim Gold
 - Multi Account With Proxy Support
 
@@ -44,7 +44,7 @@ New Airdrops : Catopia
 3. run `npm i telegram@2.22.2`
 4. run `cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp config/proxy_list.js`
    To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there.
-   To configure the Proxy, run `nano src/config/config.js` and add your proxy list there, it currently only support https proxy.
+   To configure the Proxy, run `nano src/config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
 5. run `mkdir sessions`
 6. to start the app run `npm run start` or you can copy everything inside `config` folder (make sure it already configured) to `app/config` and run `node app/index.js`
 
@@ -69,6 +69,8 @@ To update bot follow this step :
 This bot using telegram sessions. if you ever use one of my bot that use telegram sessions, you can just copy the sessions folder to this bot. Also for the telegram APP ID and Hash you can use it on another bot.
 
 if you got error `Invalid ConstructorId` try to run this ```npm i telegram@2.22.2```
+
+To configure Pet Companion, check on file `config/config.js` , change the `COMPANION` to whatever companion you want to focus (it will buy chest and choose that companion, and upgrade all pet received)
 
 ## CONTRIBUTE
 
