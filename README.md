@@ -45,25 +45,27 @@ New Airdrops : Catopia
 1. clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
 2. run `npm install`
 3. run `npm i telegram@2.22.2`
-4. run `cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp config/proxy_list.js`.
-5. To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there.
-6. To configure the Proxy, run `nano src/config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
-7. run `mkdir sessions`.
+4. run `mkdir sessions`.
+5. run `cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp config/proxy_list.js`.
+6. To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there.
+7. To configure the Proxy, run `nano src/config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
 8. to start the app run `npm run start`.
    
 ### Windows
-1. Clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
-2. Run `npm install`
-3. Run `npm i telegram@2.22.2`
-4. Navigate to `catopia-bot` directory. 
-5. Make new folder named `sessions`.
-6. Manual copy the `config` folder to `/app` folder. 
-7. Navigate to `app/` folder and paste the the `config` folder before.
-8. Navigate to `config` folder.
-9. At `/app/config/` folder, rename the `config_tmp.js` to `config.js` also the `proxy_list_tmp.js` to `proxy_list.js`.
-10. To configure the app, open `config.js` and add your telegram app id and hash there.
-11. To configure the Proxy, open `proxy_list.js` and add your proxy list there, it currently only support https proxy.
-12. To start the app run `node app/index.js`.
+1. Open your `Command Prompt` or `Power Shell`.
+2. Clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
+3. Run `npm install`
+4. Run `npm i telegram@2.22.2`
+5. Navigate to `catopia-bot` directory. 
+6. Make new folder named `sessions`.
+7. Manual copy the `config` folder to `/app` folder. 
+8. Navigate to `app/` folder and paste the the `config` folder before.
+9. Navigate to `config` folder.
+10. At `/app/config/` folder, rename the `config_tmp.js` to `config.js` also the `proxy_list_tmp.js` to `proxy_list.js`.
+11. To configure the app, open `config.js` and add your telegram app id and hash there.
+12. To configure the Proxy, open `proxy_list.js` and add your proxy list there, it currently only support https proxy.
+13. Now back to the `catopia-bot` folder
+14. To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
 
 ## Update Bot
 
