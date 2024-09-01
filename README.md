@@ -45,7 +45,7 @@ New Airdrops : Catopia
 1. clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
 2. run `npm install`
 3. run `npm i telegram@2.22.2`
-4. run `mkdir sessions`.
+4. run `mkdir sessions && mkdir -p app/config`.
 5. run `cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp config/proxy_list.js`.
 6. To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there.
 7. To configure the Proxy, run `nano src/config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
